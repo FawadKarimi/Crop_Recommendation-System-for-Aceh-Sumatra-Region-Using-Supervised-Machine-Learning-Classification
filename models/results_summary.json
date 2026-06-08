@@ -1,0 +1,23 @@
+{
+  "best_model": "Random Forest",
+  "metrics": {
+    "Decision Tree": {
+      "val_acc": 0.85,
+      "val_f1": 0.84986,
+      "cv_mean": 0.815,
+      "cv_std": 0.01784
+    },
+    "Random Forest": {
+      "val_acc": 0.89667,
+      "val_f1": 0.89412,
+      "cv_mean": 0.88643,
+      "cv_std": 0.01666
+    },
+    "KNN (k=5)": {
+      "val_acc": 0.87,
+      "val_f1": 0.8655,
+      "cv_mean": 0.88357,
+      "cv_std": 0.0105
+    }
+  }
+}
